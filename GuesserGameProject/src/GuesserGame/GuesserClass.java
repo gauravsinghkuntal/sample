@@ -2,17 +2,19 @@ package GuesserGame;
 
 import java.util.Scanner;
 
+
 class Input{
 
 	public int inputChoice() {
 		
 		Scanner scan=new Scanner(System.in);
-		System.out.print("Please enter the Value you want to provode to the empire !");
+		System.out.print("Please enter the  Value ranging from (0-n) you want to provode to the empire !");
 		int a=scan.nextInt();
 		return a;
 		
 	}
 }
+
 
 class Guessers{
 	
@@ -64,6 +66,7 @@ class Validator {
 		}
 	}
 }
+
 
 public class GuesserClass {
 
