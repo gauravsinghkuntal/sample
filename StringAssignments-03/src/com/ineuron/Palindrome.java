@@ -20,5 +20,4 @@ package com.ineuron;
 			System.out.println("It is not a palindome");
 		}
 	}
-
 }
